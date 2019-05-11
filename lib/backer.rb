@@ -4,10 +4,10 @@ class Backer
   
   def initialize(name)
     @name = name 
-    @backed_projects = []
+    @@backed_projects = []
   end
   
   def back_project()
-    backed_projects << self
+    @@backed_projects << self
   end
 end
