@@ -9,7 +9,7 @@ class Project
   
   def add_backer(backer)
     @backers << backer                #backer arg added to the Project backers array
-    backer.backed_projects << self  #backer arg .Backer- backed projects array adds self
+    #backer.backed_projects << self  #backer arg .Backer- backed projects array adds self
     @backed_projects << backer.self
   end
   
