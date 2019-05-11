@@ -8,7 +8,8 @@ class Project
   end
   
   def add_backer(backer)
-    @backers << backer
+    @backers << backer      #backer arg added to the Project backers array
+    backer.backed_projects << self  #
   end
   
 end
